@@ -48,13 +48,18 @@ border: 0;
 
 /*hero-section*/
 .hero-section {
-background-image: url('../img/');
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-image: url('../img/foto.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 500px;
 }
 
 .hero-section h1{
     text-align: center;
+    color: #ffffff;
+    font-size: 100px;
+    padding-top: 300px;
 }
 
 h1 {
@@ -62,6 +67,10 @@ h1 {
     
 }
 /*fin hero-section*/
+/*exp*/
+.holi {
+    width: 200px;
+}
 
 /*portafolio*/
 #portfolio .container-fluid {
