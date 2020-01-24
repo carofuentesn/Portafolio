@@ -23,10 +23,10 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark barra-nav" style="background-color: black;">
     <a class="navbar-brand" href="#">CAROLINA<span class="fuentes">FUENTES</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
+    <div class="animated-icon1"><span></span><span></span><span></span></div>
+  </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
@@ -34,10 +34,13 @@
           <a class="nav-link" href="#quien">QUIEN SOY<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#herramientas">HERRAMIENTAS</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#experiencia">MI EXPERIENCIA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio">MIS ÚLTIMOS TRABAJOS</a>
+          <a class="nav-link" href="#proyectos">MIS ÚLTIMOS PROYECTOS</a>
         </li>
         </li>
         <li class="nav-item">
@@ -51,25 +54,23 @@
   <!--Hero-section-->
   <section class="hero-section">
     <h3 class="d-none d-lg-block">Carolina Fuentes / Diseñadora</h1>
-      <h1 class="d-none d-lg-block">HOLA!</h1>
+      <h1 class="d-none d-lg-block ">HOLA!</h1>
   </section>
 
   <!--Quien soy-->
+  <div class="separador"></div>
+
   <section id="quien" class="quien-soy">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="d-sm-block d-lg-none">HOLA!</h1>
-        </div>
-      </div>
       <div class="row descripción">
-        <div class="col-sm-6 col-12">
+        <div class="col-sm-6 col-12 text-center">
           <article>
             <img src="Assets/img/foto-perfil.jpg" alt="foto de perfil" class="foto-perfil">
           </article>
         </div>
         <div class="col-sm-6 col-12">
           <article>
+            <h2 class="d-sm-block d-lg-none titulo-exp-2">¡HOLA!</h2>
             <p>mi descripcion mi descripcion mi descripcion mi descripcion mi descripcion mi descripcion mi descripcion
               mi
               descripcion mi descripcion mi descripcion
@@ -86,31 +87,61 @@
       </div>
 
     </div>
-    <!--fin de container-->
-    <!--fin quien soy-->
+<!--fin quien soy-->
+
+<!--herramientas-->
+<section id="herramientas">
+  <div class="container-fluid" style="background-color: #F2CC5A;">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center titulo-exp">HERRAMIENTAS</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-sm-12 justify-content-md-center">
+        <img src="Assets/img/icono-1.png" alt="illustrator" style="width: 40px;">
+        <img src="Assets/img/icono-2.png" alt="photoshop" style="width: 40px;">
+        <img src="Assets/img/icono-3.png" alt="indesign" style="width: 40px;">
+        <img src="Assets/img/icono-4.png" alt="illustrator" style="width: 40px;">
+      </div>
+      <div class="col-lg-3 col-sm-12 justify-content-md-center" style="width: 40px;">
+        <img src="Assets/img/icono-5.png" alt="illustrator" style="width: 40px;">
+        <img src="Assets/img/icono-6.png" alt="photoshop" style="width: 40px;">
+        <img src="Assets/img/icono-7.png" alt="indesign" style="width: 40px;">
+      </div>
+    </div>
+  </div>
+</section>
 
     <!--experiencia -->
     <section id="experiencia" class="exp">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <h2 class="text-center titulo-exp">EXPERIENCIA</h2>
+            <h2 class="text-center titulo-exp">EXPERIENCIA PROFESIONAL</h2>
           </div>
         </div>
         <div class="row justify-content-md-center text-center">
-          <div class="col-lg-4 col-sm-12 justify-content-md-center">
+          <div class="col-lg-4 col-sm-12 justify-content-md-center columnas">
             <i class="fas fa-hashtag fa-3x justify-content-md-center"></i>
             <h4 class="text-center"> Social Media </h4>
-            <small class="text-muted text-center">VOKAGE (2017-2018)</small>
+            <ul>
+              <li><small class="text-muted text-center">VOKAGE (2017-2018)</small></li>
+              <li><small class="text-muted text-center">ZAPATOS DE FÁTIMA (2018-2019)</small></li>
+              <li><small class="text-muted text-center">CIRCOVOLANTE (FREELANCE)</small></li>
+            </ul>
 
           </div>
           <div class="col-lg-4 col-sm-12 justify-content-md-center">
-            <i class="fas fa-camera fa-3x"></i>
+            <i class="fas fa-camera fa-3x justify-content-md-center"></i>
             <h4>Fotografía</h4>
-            <small class="text-muted text-center">PAULA IVOVIC (2018-2018)</small>
+            <ul>
+              <il> <small class="text-muted text-center">PAULA IVOVIC (FREELANCE)</small></il>
+            </ul>
+           
           </div>
           <div class="col-lg-4 col-sm-12 justify-content-md-center">
-            <i class="fas fa-hashtag fa-3x"></i>
+            <i class="fas fa-draw-polygon fa-3x justify-content-md-center"></i>
             <h4>Ilustración Vectorial</h4>
             <p>2013-1018</p>
           </div>
@@ -118,48 +149,67 @@
       </div>
     </section>
 
-    <!--fin experiencia -->
+<!--fin experiencia -->
+<!-- ultimos proyectos -->
 
-
-
-    <!-- Button trigger modal -->
-     <!--
-  <div class="modal fade bd-example-modal-xl" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          
-        </button>
-      </div>
-      <div class="modal-body">
-        <img class="img-fluid" src="Assets/img/foto.jpg" alt="">
-      </div>
-      
-    </div>
-  </div>
-</div>-->
-<!--MODALS-->
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<section id="proyectos"> 
+  <!--MODALS-->
+<div class="modal fade cafe" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <img class="img-fluid" src="Assets/img/portfolio/thumbnails/2.jpg" alt="">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-1.jpg" alt="">
     </div>
   </div>
 </div>
 
+<div class="modal fade iguana" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-2.jpg" alt="">
+    </div>
+  </div>
+</div>
 
+<div class="modal fade suricata" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-3.jpg" alt="">
+    </div>
+  </div>
+</div>
 
+<div class="modal fade cuppon" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-4.jpg" alt="">
+    </div>
+  </div>
+</div>
 
-<!-- ultimos trabajos -->
+<div class="modal fade ricomida" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-5.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade fierz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img class="img-fluid" src="Assets/img/trabajos/proyecto-6.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- galeria de proyectos -->
 
 
     <section id="portfolio">
       <div class="container-fluid" style="background-color:#F2CC5A;">
         <div class="row">
           <div class="col">
-            <h2 class="text-center titulo-exp">ÚLTIMOS TRABAJOS</h2>
+            <h2 class="text-center titulo-exp">ÚLTIMOS PROYECTOS</h2>
           </div>
         </div>
       </div>
@@ -167,8 +217,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">    
           <div class="col-lg-4 col-sm-6">
-            <div class="portfolio-box" data-toggle="modal" data-target=".bd-example-modal-lg" href="Assets/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box" data-toggle="modal" data-target=".cafe" href="Assets/img/trabajos/proyecto-1.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-1.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
                   Category
@@ -180,68 +230,72 @@
             </a>
           </div>
         </div>
+
+
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="Assets/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/2.jpg" alt="">
+            <a class="portfolio-box" data-toggle="modal" data-target=".iguana" href="Assets/img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-2.jpg" alt="iguana page">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Category
+                  DESARROLLO WEB
                 </div>
                 <div class="project-name">
-                  Iguana Page
+                  IGUANA PAGE
                 </div>
               </div>
             </a>
           </div>
 
+
+
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="Assets/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/3.jpg" alt="">
+            <a class="portfolio-box" data-toggle="modal" data-target=".suricata" href="Assets/img/trabajos/proyecto-3.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-3.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Category
+                  DESARROLLO WEB
                 </div>
                 <div class="project-name">
-                  Suricata
+                  SURICATA
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="Assets/img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/4.jpg" alt="">
+            <a class="portfolio-box" data-toggle="modal" data-target=".cuppon" href="Assets/img/trabajos/proyecto-4.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-4.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Category
+                  DESARROLLO WEB
                 </div>
                 <div class="project-name">
-                  Cuppon
+                  CUPPON
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="Assets/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/5.jpg" alt="">
+            <a class="portfolio-box" data-toggle="modal" data-target=".ricomida" href="Assets/img/trabajos/proyecto-5.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-5.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Category
+                  DESARROLLO WEB
                 </div>
                 <div class="project-name">
-                  Project Name
+                  RICOMIDA
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="Assets/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="Assets/img/portfolio/thumbnails/6.jpg" alt="">
+            <a class="portfolio-box" data-toggle="modal" data-target=".fierz" href="Assets/img/trabajos/proyecto-6.jpg">
+              <img class="img-fluid" src="Assets/img/trabajos/min-6.jpg" alt="">
               <div class="portfolio-box-caption p-3">
                 <div class="project-category text-white-50">
-                  Category
+                  DESARROLLO WEB / EDICIÓN FOTOGRÁFICA
                 </div>
                 <div class="project-name">
-                  Project Name
+                  FIERZ
                 </div>
               </div>
             </a>
@@ -249,7 +303,7 @@
         </div>
       </div>
     </section>
-    <!--Fin de ultimos trabajos-->
+  </section> <!--Fin de ultimos proyectos-->
 
 
 
@@ -289,7 +343,7 @@
       <h4 class="derechos">© CAROLINA FUENTES 2020. ALL RIGHTS RESERVED.</h4>
     </div>
   </footer>
-
+<!--fin footer-->
 
 
   <!--Javascript-->
@@ -303,6 +357,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <script src="Assets/js/script.js"></script>
+  <script src="Assets/js/collapsebutton.js"></script>
 
   <script>
     $('#myModal').on('shown.bs.modal', function () {
