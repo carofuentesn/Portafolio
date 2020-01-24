@@ -1,0 +1,90 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#cover-iguana {
+    width: 100%;
+    height: auto;
+     
+
+}
+
+#cover-iguana img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.iguana-texto {
+    text-align: left;
+    width: 30%;
+    padding: 20px 70px 50px 6px ;
+}
+
+.iguana-foto {
+    height: 202px;
+    object-fit: cover;
+    }
+
+.iguana-texto, .iguana-foto {
+    display: inline-block;
+}
+
+
+#caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 31px;
+}
+/*comentarios*/
+
+.iconos {
+    color: #ffffff;
+          
+}
+
+article {
+    display: inline-block;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.color-icono {
+    color: #ffffff;
+}
+
+.galeria {
+    display: inline-block;
+    padding: 90px 20px;
+    height: 202px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #1E1A13;
+    margin: 0px;
+    height: 70px;
+    padding-top: 20px;
+    }

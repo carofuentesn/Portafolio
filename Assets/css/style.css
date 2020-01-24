@@ -91,11 +91,16 @@ border: 0;
     text-align: center;
 }
 
-/*herramientas*/
+.carolina {
+    padding-bottom: 30px;
+    text-align: center;
+}
 
-/*.iconos-herramientas {
-    padding-bottom: 70px;
-}*/
+.soy {
+    padding-top: 25px;
+}
+
+/*herramientas*/
 
 .iconos-individuales img{
    margin: 0px 20px 30px 20px;

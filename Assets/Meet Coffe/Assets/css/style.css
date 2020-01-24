@@ -1,0 +1,211 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif,'regular';
+    color: #000F08;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;  
+}
+
+body * {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+}
+
+.Barras_nav_y_footer {
+    background-color: #000f08;
+    color: #ffffff;
+    margin: 0px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 65px;
+    margin-bottom: -13px;
+}
+
+.evento a {
+    text-decoration: none;
+    color: #000F08;
+}
+
+.Barras_nav_y_footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li {
+     display: inline-block;
+     margin: 0 1em;
+     vertical-align: middle;
+}
+
+.icono {
+    width: 20%;
+    width: 2.2%;
+  }
+  
+.icono svg {
+    fill: #ffffff;
+}
+
+ul {
+    text-align: left;
+}
+
+.hero-section {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 55px;
+    padding-top: 35px;
+    height: 422px;
+    text-align: right;
+    color: #ffffff;
+    text-shadow: 0.12em 0.1em 0.12em #707070;
+    margin-top: 12px;
+}
+
+#menu_navegador {
+    text-align: left;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em
+}
+
+h3 {
+    font: 700;
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+
+.hero-section h2 {
+    font-weight: 400px;
+    font-size: 40px;
+}
+.ubicacion_centrada {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.ubicacion_centrada h2 {
+    padding: 20px 2px;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    white-space: nowrap;
+    padding-bottom: 25px;
+    padding: 50px;
+}
+
+.centrado {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.charla_texto {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 3%;
+    padding-right: 150px;
+}
+
+.charla_speaker {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla_speaker, .charla_texto, .evento{
+    display: inline-block;
+}
+
+
+#eventos {
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 162px;
+}
+
+.charla_texto h2, .charla_texto h4, .charla_texto h5 {
+    padding-bottom: 2px;
+}
+
+.charla_texto h3 {
+    padding-bottom: 9px;
+}
+
+.charla_texto p{
+    padding-right: 347px;
+}
+
+.eventos-imagenes {
+    padding: 25px 50px;
+}
+
+i {
+    color:#ffffff;
+}
+
+#contacto {
+    padding: 60px;
+}
+
+.iconos {
+    padding: 60px;
+}
+.iconos i{
+    color: #ffffff;
+    margin: 0 0.25em 0.5em 0.25em;
+}
+footer {
+    display: inline-block;
+    background-color: #000f08;
+    width: 100%;
+    color:#ffffff;
+}
+
+/*simposio vegandb*/
+
+#titulo-simposio {
+    padding: 95px;
+    padding-bottom: 50px;
+    padding: 97px 245px 73px 245px ;
+    text-align: left;
+    margin: 0px;
+}
+
+
+.texto-simposio h2, .texto-simposio p {
+    padding: 30px 245px;
+    text-align: left;
+     
+}
+
+.texto-simposio {
+    padding-bottom: 120px;
+}
+.texto-simposio img {
+    padding: 73px 417px 73 418;
+}
