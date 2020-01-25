@@ -86,7 +86,7 @@ html {
 .titulo-exp-2 {
     padding-bottom: 30px;
     font-weight: 700!important;
-    padding-top: 70px;
+    padding-top: 0!important;
     text-align: center;
 }
 
@@ -313,6 +313,8 @@ ul li {
     }
 
 }
+
+ 
 
 
 
